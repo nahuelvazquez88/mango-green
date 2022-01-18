@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mango Green </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+
+    <section class="sec-01">
+      <div class="container">
+        <h2 class="main-title">Real y sumamente unico</h2>
+        <div class="content">
+          <div class="image">
+            <img src="img1.jpg" alt="">
+          </div>
+          <div class="text-box">
+            <h3>Lucas sandoball</h3>
+            <p>Si hablamos de resposabilidad, carisma, y grandes proyectos ,hablamos de Mango Green, empresa Argentina dedicada al desarrollo  de sofweare 
+                brindan una excelente calidad de trabajo con una gran formacion de equipo , desde proyectos chicos a proyectos grandes, maravilloso lo que 
+                hacen .</p>
+          </div>
+        </div>
+        <div class="media-icons">
+          <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="sec-02">
+      <div class="container">
+        <h3 class="section-title">Inovacion </h3>
+        <div class="content">
+          <div class="image">
+            <img src="img2.jpg" alt="">
+          </div>
+          <div class="info">
+            <h4 class="info-title">Soledad rojas</h4>
+            <p>Cuando entre a trabajar como jr tenia dudas de muchas cosas,pero el nivel y el calor humano que brindan para capacitarte 
+              dentro de la empresa es maravilloso,haciendo que todas mis preoucuaciones y dudas vayan desvaneciendose,clima laboral fuerte
+              y de gran nivel,compañerismo sin limites y feliz de estar en esta gran empresa.
+               .</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec-03">
+      <div class="container">
+        <h3 class="section-title">Siguenos, se parte de la comunidad
+            
+        </h3>
+        <div class="content">
+          <div class="media-info">
+            <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+          </div>
+          <div class="image">
+            <img src="img3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      //common reveal options to create reveal animations
+      ScrollReveal({
+        //reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+      });
+
+      //target elements, and specify options to create reveal animations
+      ScrollReveal().reveal('.main-title, .section-title', { delay: 500, origin: 'left' });
+      ScrollReveal().reveal('.sec-01 .image, .info', { delay: 600, origin: 'bottom' });
+      ScrollReveal().reveal('.text-box', { delay: 700, origin: 'right' });
+      ScrollReveal().reveal('.media-icons i', { delay: 500, origin: 'bottom', interval: 200 });
+      ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', { delay: 500, origin: 'top' });
+      ScrollReveal().reveal('.media-info li', { delay: 500, origin: 'left', interval: 200 });
+    </script>
+
+  </body>
+</html>
+      
